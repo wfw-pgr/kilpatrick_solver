@@ -12,8 +12,6 @@ program main
   ! --- [1] load parameters                            --- !
   ! ------------------------------------------------------ !
 
-  ! namelist /parameters/ Emin, Emax, freq, iterMax, crit
-  
   open (lun,file=trim(cnsFile),form="formatted")
   read (lun,*) item, type, Emin
   read (lun,*) item, type, Emax
